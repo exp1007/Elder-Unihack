@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "tokenCode": "abc123",
+    "dailyActiveHours": 3,
+    "weeklyWorkoutSessions": 2,
+    "stepsPerDay": 5000,
+    "medicaments": "Painkillers",
+    "averageSleepDuration": 7.5,
+    "sleepQuality": 8,
+    "deepSleepHours": 2.0,
+    "dailyCaloriesIntake": 2000,
+    "proteinIntake": 70,
+    "numberOfMeals": 3
+  },
+  {
+    "id": "2",
+    "tokenCode": "xyz789",
+    "dailyActiveHours": 2,
+    "weeklyWorkoutSessions": 3,
+    "stepsPerDay": 4500,
+    "medicaments": "Antibiotics",
+    "averageSleepDuration": 6.8,
+    "sleepQuality": 7,
+    "deepSleepHours": 1.8,
+    "dailyCaloriesIntake": 1800,
+    "proteinIntake": 60,
+    "numberOfMeals": 3
+  }
+]

@@ -1,0 +1,17 @@
+.home-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.logo {
+    size: 10rem;
+}
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+
+}
