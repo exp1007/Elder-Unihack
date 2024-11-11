@@ -101,11 +101,14 @@ function Profile() {
 
   }, [token]);  // Re-run if token changes
 
-  let profile_pic ; 
-  try{
-    profile_pic = require(`../profile-pics/${token}.jpg`);
+  // Preload all images in the directory
+  const images = require.context('../profile-pics', false, /\.jpg$/);
+
+  let profile_pic;
+  try {
+    profile_pic = images(`./${token}.jpg`);
   } catch (error) {
-    profile_pic = require(`../profile-pics/default.jpg`); // Use fallback if image is not found
+    profile_pic = images(`./default.jpg`); // Fallback image
   }
   
 
