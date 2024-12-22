@@ -1,4 +1,5 @@
 # Project for Unihack Edition 6
+Project made in 48 hours (or less)
 Full stack website for nursing home user-end statistics, includes the following pages:
 
 - Home (landing page)
