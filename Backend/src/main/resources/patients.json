@@ -1,0 +1,126 @@
+[
+    {
+        "name": "John Doe",
+        "age": 82,
+        "medicalCondition": "Hypertension",
+        "tokenCode": "abc123",
+        "activities": [
+            {
+                "activityName": "Morning Exercise",
+                "date": "2024-11-01",
+                "details": "Light stretching and balance exercises",
+                "patientId": "abc123",
+                "status": "0",
+                "startTime": "09:00",
+                "endTime": "09:30"
+            },
+            {
+                "activityName": "Memory Games",
+                "date": "2024-11-01",
+                "details": "Memory-enhancing puzzles and games",
+                "patientId": "abc123",
+                "status": "1",
+                "startTime": "11:00",
+                "endTime": "12:00"
+            },
+            {
+                "activityName": "Art Therapy",
+                "date": "2024-11-02",
+                "details": "Painting session with watercolor",
+                "patientId": "abc123",
+                "status": "1",
+                "startTime": "10:00",
+                "endTime": "11:00"
+            },
+            {
+                "activityName": "Gardening",
+                "date": "2024-11-02",
+                "details": "Watering plants and light weeding",
+                "patientId": "abc123",
+                "status": "0",
+                "startTime": "14:00",
+                "endTime": "15:00"
+            },
+            {
+                "activityName": "Reading Club",
+                "date": "2024-11-03",
+                "details": "Discussing classic novels",
+                "patientId": "abc123",
+                "status": "0",
+                "startTime": "15:00",
+                "endTime": "16:00"
+            },
+            {
+                "activityName": "Movie Screening",
+                "date": "2024-11-03",
+                "details": "Watching 'Casablanca'",
+                "patientId": "abc123",
+                "status": "1",
+                "startTime": "18:00",
+                "endTime": "20:00"
+            }
+        ]
+    },
+    {
+        "name": "Jane Smith",
+        "age": 78,
+        "medicalCondition": "Diabetes",
+        "tokenCode": "xyz789",
+        "activities": [
+            {
+                "activityName": "Morning Exercise",
+                "date": "2024-11-01",
+                "details": "Light stretching and balance exercises",
+                "patientId": "xyz789",
+                "status": "0",
+                "startTime": "09:00",
+                "endTime": "09:30"
+            },
+            {
+                "activityName": "Cooking Class",
+                "date": "2024-11-01",
+                "details": "Healthy snack preparation",
+                "patientId": "xyz789",
+                "status": "1",
+                "startTime": "14:00",
+                "endTime": "15:30"
+            },
+            {
+                "activityName": "Art Therapy",
+                "date": "2024-11-02",
+                "details": "Watercolor painting session",
+                "patientId": "xyz789",
+                "status": "1",
+                "startTime": "10:00",
+                "endTime": "11:00"
+            },
+            {
+                "activityName": "Tai Chi",
+                "date": "2024-11-02",
+                "details": "Gentle Tai Chi exercises",
+                "patientId": "xyz789",
+                "status": "0",
+                "startTime": "11:30",
+                "endTime": "12:30"
+            },
+            {
+                "activityName": "Gardening",
+                "date": "2024-11-03",
+                "details": "Planting herbs in the community garden",
+                "patientId": "xyz789",
+                "status": "1",
+                "startTime": "09:30",
+                "endTime": "10:30"
+            },
+            {
+                "activityName": "Movie Night",
+                "date": "2024-11-03",
+                "details": "Watching 'The Sound of Music'",
+                "patientId": "xyz789",
+                "status": "0",
+                "startTime": "18:00",
+                "endTime": "20:30"
+            }
+        ]
+    }
+]

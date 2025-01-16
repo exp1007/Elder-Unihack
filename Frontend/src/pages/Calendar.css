@@ -1,0 +1,116 @@
+.left-calendar-form {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.right-calendar-form {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 1px solid #d8d8d8;;
+    padding-left: 5rem;
+}
+
+.timetable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+  .timetable-row {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.dots {
+    background-color: #b8cdfb;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 3px #b8cdfb;
+    margin-right: 10px;
+}
+  
+  .time {
+    right: 0;
+    font-weight: bold;
+    color: #737373;
+    font-size: 24px;
+  }
+  
+  .activities {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .activity {
+    padding: 5px;
+    background-color: #ecf2ff;
+    border-radius: 5px;
+    margin: 2px 0;
+    padding-inline: 20px;
+  }
+
+.time-zone {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.calendar-form{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Days */
+.calendar-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .days-container {
+    width: 50%;
+  }
+  
+  .days-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .days-container li {
+    cursor: pointer;
+    padding: 10px;
+    color: #737373;
+    background-color: #ecf2ff;  
+    border-radius: 5px;
+    margin: 2px 0;
+    padding-inline: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+  }
+  
+  .days-container li:hover {
+    background-color: #b3ceff;
+  }
+  

@@ -1,0 +1,39 @@
+.home-container {
+    position: relative;
+    display: flex;
+    top: -7%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/background.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 22px;
+    border: 1px solid #b3ceff;
+    background: white;
+    box-shadow: 0 0 80px 15px #b3ceffad;
+  }
+
+.logo {
+    size: 10rem;
+}
+
+.title{
+    font-size: 50px;
+}

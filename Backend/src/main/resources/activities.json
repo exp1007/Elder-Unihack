@@ -1,0 +1,26 @@
+[
+  {
+    "patientId": "C",
+    "activityName": "Morning Exercise",
+    "date": "2024-11-01",
+    "details": "Light stretching and balance exercises"
+  },
+  {
+    "patientId": "D",
+    "activityName": "Art Therapy",
+    "date": "2024-11-02",
+    "details": "Painting session with watercolor"
+  },
+  {
+    "patientId": "E",
+    "activityName": "Cooking Class",
+    "date": "2024-11-01",
+    "details": "Learning to make low-sugar recipes"
+  },
+  {
+    "patientId": "F",
+    "activityName": "Yoga Session",
+    "date": "2024-11-03",
+    "details": "Gentle yoga for flexibility and relaxation"
+  }
+]

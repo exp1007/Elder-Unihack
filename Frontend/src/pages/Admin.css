@@ -1,0 +1,146 @@
+.admin-page {
+    display: flex;
+    flex-direction: row; /* Arrange user list and admin container side by side */
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    gap: 2rem; /* Space between user list and admin container */
+}
+
+.user-list {
+    width: 35%;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid #b8cdfb;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px #b8cdfb82;
+    margin-bottom: 1.5rem;
+  }
+
+.user-list h2 {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.user-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Keep content aligned at the top */
+    width: 40%; /* Reduced width to make it narrower */
+    padding: 2rem;
+    border: 1px solid #b8cdfb;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px #b8cdfb82;
+    background-color: #ffffff;
+    height: 100%; /* Make sure it takes full height */
+}
+
+.admin-title,
+.weekly-section-title {
+    text-align: center;
+    color: #3c68f5;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+form > div label {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #3c68f5;
+}
+
+form > div input,
+form > div textarea {
+    border: 1px solid #b3ceff;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+    box-shadow: 0px 0px 8px #b8cdfb42;
+    transition: all 0.3s ease;
+}
+
+form > div input:focus,
+form > div textarea:focus {
+    border: 1px solid #3c68f5;
+    box-shadow: 0px 0px 12px #3c68f582;
+}
+
+form > div input[type="file"] {
+    padding: 0.5rem;
+    border: none;
+    box-shadow: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Add padding and border for weekly data section */
+form > div.weekly-section {
+    padding: 1.5rem;
+    border: 1px solid #b3ceff;
+    border-radius: 12px;
+    background-color: #f9faff;
+    box-shadow: 0px 0px 10px #b8cdfb42;
+    margin-bottom: 2rem; /* Add spacing below the section */
+}
+
+.weekly-section-title {
+    margin-bottom: 1.5rem; /* Centered and increased spacing */
+}
+
+/* Styling the sleep and meals input rows */
+form > div.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem; /* Add spacing between input rows */
+}
+
+form > div.row input {
+    flex: 1;
+}
+
+.user-actions button {
+    margin-left: 0px !important;
+}
+
+.patient-item{
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #b8cdfb;
+}
+
+.user-item{
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #b8cdfb;
+}
